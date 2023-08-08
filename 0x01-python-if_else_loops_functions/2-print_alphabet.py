@@ -1,3 +1,4 @@
 #!/usr/bin/python3
-for i in range(97, 123):
-    print('{}'.format(chr(i)), end='')
+for character_code in range(97, 123):
+    print('{}'.format(chr(character_code)), end='')
+
