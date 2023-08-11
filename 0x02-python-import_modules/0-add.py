@@ -1,10 +1,7 @@
 #!/usr/bin/python3
-from add_0 import add
+from add_0 import add as addition_function
 
 a = 1
 b = 2
 
-result = add(a, b)
-
-print("{0} + {1} = {2}".format(a, b, result))
-
+print("{0} + {1} = {2}".format(a, b, addition_function(a, b)))
