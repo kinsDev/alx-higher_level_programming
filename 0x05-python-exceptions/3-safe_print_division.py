@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 def safe_print_division(numerator, denominator):
     try:
         result = numerator / denominator  # Try to perform the division
