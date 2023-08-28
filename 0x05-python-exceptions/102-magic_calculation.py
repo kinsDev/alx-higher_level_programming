@@ -1,16 +1,17 @@
 #!/usr/bin/python3
 
-def custom_magic_calculation(x, y):
-    final_result = 0
 
-    for index in range(1, 3):
+def magic_calculation(a, b):
+    result = 0
+
+    for i in range(1, 3):
         try:
-            if index > x:
-                raise Exception('Limit Exceeded')
+            if i > a:
+                raise Exception('Too far')
 
-            final_result += x ** y / index
+            result += a ** b / i
         except:
-            final_result = y + x
+            result = b + a
             break
 
-    return final_result
+    return result
