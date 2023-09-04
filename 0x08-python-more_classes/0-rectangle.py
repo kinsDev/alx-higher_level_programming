@@ -10,3 +10,4 @@ class Rectangle:
     This class can be used for various rectangle-related operations.
     """
     pass
+
